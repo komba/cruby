@@ -1,0 +1,15 @@
+just Ruby
+$ time ./test_classic.rb 
+sin = 0.580611184212314
+
+real  3m1.961s
+user  2m35.682s
+sys   0m25.906s
+
+Ruby api and C
+$ time ./test_with_c.rb 
+sin = 5.806112e-01
+
+real  0m1.781s
+user  0m1.780s
+sys	  0m0.000s

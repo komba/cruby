@@ -1,0 +1,19 @@
+C and Ruby.
+== Depends:
+  - gcc
+  - ruby
+  - ruby-dev
+  
+== Compile
+  > cd cruby
+  > ruby extconf.rb
+  > make
+
+== Run
+  > time ./test_classic.rb
+  > time ./test_with_c.rb
+
+== ???
+== PROFIT
+
+komba, 2011.
